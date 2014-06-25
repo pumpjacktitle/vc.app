@@ -79,6 +79,7 @@
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
+			"php artisan dump-autoload",
 			"php artisan optimize",
 			"php artisan theme:publish --extensions",
 			"php artisan asset:publish platform/installer",
@@ -86,6 +87,7 @@
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
+			"php artisan dump-autoload",
 			"php artisan optimize",
 			"php artisan theme:publish --extensions",
 			"php artisan asset:publish platform/installer",
