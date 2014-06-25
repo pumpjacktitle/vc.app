@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "017295621c01901709e381c257f85c4e",
+    "hash": "d723e5f4226ca0fe7998dcc32b9f9bb7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1845,12 +1845,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "e351fae65807ab46a10e878eddabd499b391cdc9"
+                "reference": "cf35f1930edc00b264b06f04d9e1f616cc440581"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/e351fae65807ab46a10e878eddabd499b391cdc9",
-                "reference": "e351fae65807ab46a10e878eddabd499b391cdc9",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/cf35f1930edc00b264b06f04d9e1f616cc440581",
+                "reference": "cf35f1930edc00b264b06f04d9e1f616cc440581",
                 "shasum": ""
             },
             "require": {
@@ -1911,7 +1911,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2014-06-04 00:56:03"
+            "time": "2014-06-25 16:26:48"
         },
         {
             "name": "doctrine/inflector",
@@ -4567,12 +4567,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-pages.git",
-                "reference": "636e4589159e52a0172b45097545286f65f8ec82"
+                "reference": "ffafccf0beb5e2ff8cfaa80dc7a328140b20cbb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-pages/zipball/636e4589159e52a0172b45097545286f65f8ec82",
-                "reference": "636e4589159e52a0172b45097545286f65f8ec82",
+                "url": "https://api.github.com/repos/cartalyst/platform-pages/zipball/ffafccf0beb5e2ff8cfaa80dc7a328140b20cbb1",
+                "reference": "ffafccf0beb5e2ff8cfaa80dc7a328140b20cbb1",
                 "shasum": ""
             },
             "require": {
@@ -4634,7 +4634,7 @@
                 "source": "https://github.com/cartalyst/platform-pages/tree/master",
                 "issues": "https://github.com/cartalyst/platform-pages/issues"
             },
-            "time": "2014-06-25 03:21:15"
+            "time": "2014-06-25 21:09:37"
         },
         {
             "name": "platform/settings",
@@ -5822,12 +5822,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "de6e3aa1362d77f6bf91f17039cd403807ee5c27"
+                "reference": "dfc7d40b0a4d2f5ccc743eba08f840743f4ea984"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/de6e3aa1362d77f6bf91f17039cd403807ee5c27",
-                "reference": "de6e3aa1362d77f6bf91f17039cd403807ee5c27",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/dfc7d40b0a4d2f5ccc743eba08f840743f4ea984",
+                "reference": "dfc7d40b0a4d2f5ccc743eba08f840743f4ea984",
                 "shasum": ""
             },
             "require": {
@@ -5877,7 +5877,7 @@
             ],
             "description": "Symfony Security Component - Core Library",
             "homepage": "http://symfony.com",
-            "time": "2014-04-23 14:08:54"
+            "time": "2014-06-23 07:34:27"
         },
         {
             "name": "symfony/translation",
