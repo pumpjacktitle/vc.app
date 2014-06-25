@@ -16,9 +16,7 @@ Route::get('hello', function()
 	return View::make('hello');
 });
 
-App::before(function() {
-    Route::get('/', function()
-    {
-        return View::make('platform/users::auth/login');
-    });
+Route::get('/', function()
+{
+	return View::make('platform/users::auth/login');
 });
