@@ -2644,7 +2644,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/admin-kyaris.git",
-                "reference": "829d0cc3e648e97fcaa491ce79b5a85f7730208c"
+                "reference": "a60a18a2cc82c1ac699fc9e4d5a1709b8cb6159f"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2675,7 +2675,7 @@
                 "platform",
                 "theme"
             ],
-            "time": "2014-06-27 15:43:30"
+            "time": "2014-06-28 22:53:34"
         },
         {
             "name": "kyaris-arsenal/frontend-kyaris",
