@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "654c850a584f905e95787569f6011a4a",
+    "hash": "7ed454fe5dff4df25baa2ba1a6eada3f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -789,12 +789,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/media.git",
-                "reference": "8062bdb708a7146032796006ff8e026f641f4c27"
+                "reference": "0c1fe699401bc17e3c6c28fae9a9a41721341bae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/media/zipball/8062bdb708a7146032796006ff8e026f641f4c27",
-                "reference": "8062bdb708a7146032796006ff8e026f641f4c27",
+                "url": "https://api.github.com/repos/cartalyst/media/zipball/0c1fe699401bc17e3c6c28fae9a9a41721341bae",
+                "reference": "0c1fe699401bc17e3c6c28fae9a9a41721341bae",
                 "shasum": ""
             },
             "require": {
@@ -856,7 +856,7 @@
                 "source": "https://github.com/cartalyst/media/tree/master",
                 "issues": "https://github.com/cartalyst/media/issues"
             },
-            "time": "2014-06-24 21:56:14"
+            "time": "2014-06-28 18:23:21"
         },
         {
             "name": "cartalyst/nested-sets",
@@ -1847,12 +1847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "cf35f1930edc00b264b06f04d9e1f616cc440581"
+                "reference": "e7a917e9eddd38e9fb37afd6ef95e1b542304a53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/cf35f1930edc00b264b06f04d9e1f616cc440581",
-                "reference": "cf35f1930edc00b264b06f04d9e1f616cc440581",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/e7a917e9eddd38e9fb37afd6ef95e1b542304a53",
+                "reference": "e7a917e9eddd38e9fb37afd6ef95e1b542304a53",
                 "shasum": ""
             },
             "require": {
@@ -1913,7 +1913,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2014-06-25 16:26:48"
+            "time": "2014-06-27 13:03:59"
         },
         {
             "name": "doctrine/inflector",
@@ -2644,7 +2644,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/admin-kyaris.git",
-                "reference": "b50670f2cf3827c070d62379dd9dd38baee00de2"
+                "reference": "829d0cc3e648e97fcaa491ce79b5a85f7730208c"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2675,7 +2675,7 @@
                 "platform",
                 "theme"
             ],
-            "time": "2014-06-19 21:01:43"
+            "time": "2014-06-27 15:43:30"
         },
         {
             "name": "kyaris-arsenal/frontend-kyaris",
@@ -2683,7 +2683,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/frontend-kyaris.git",
-                "reference": "f31cfe6c2fc9c814b39f39a556029417cef52504"
+                "reference": "d77539039a7eb8f125cce47fe9744a886085d852"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2714,7 +2714,7 @@
                 "platform",
                 "theme"
             ],
-            "time": "2014-06-18 21:43:14"
+            "time": "2014-06-28 18:37:08"
         },
         {
             "name": "kyaris-arsenal/platform",
