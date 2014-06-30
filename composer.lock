@@ -3930,12 +3930,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-media.git",
-                "reference": "3e2eea7698c5a48b840ad930a3ec12f3d835766f"
+                "reference": "1e8e166dc7d836d40bc7f68dfadafe5297d11337"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-media/zipball/3e2eea7698c5a48b840ad930a3ec12f3d835766f",
-                "reference": "3e2eea7698c5a48b840ad930a3ec12f3d835766f",
+                "url": "https://api.github.com/repos/cartalyst/platform-media/zipball/1e8e166dc7d836d40bc7f68dfadafe5297d11337",
+                "reference": "1e8e166dc7d836d40bc7f68dfadafe5297d11337",
                 "shasum": ""
             },
             "require": {
@@ -3998,7 +3998,7 @@
                 "source": "https://github.com/cartalyst/platform-media/tree/master",
                 "issues": "https://github.com/cartalyst/platform-media/issues"
             },
-            "time": "2014-06-22 19:05:17"
+            "time": "2014-06-30 10:46:02"
         },
         {
             "name": "platform/menus",
