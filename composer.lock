@@ -1304,12 +1304,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/workshop.git",
-                "reference": "118dd368ad715cda22fee8ef0203612e46ff3d1c"
+                "reference": "52f3635f4d7cd2304f280cf89eb00233bb7b8fd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/workshop/zipball/118dd368ad715cda22fee8ef0203612e46ff3d1c",
-                "reference": "118dd368ad715cda22fee8ef0203612e46ff3d1c",
+                "url": "https://api.github.com/repos/cartalyst/workshop/zipball/52f3635f4d7cd2304f280cf89eb00233bb7b8fd6",
+                "reference": "52f3635f4d7cd2304f280cf89eb00233bb7b8fd6",
                 "shasum": ""
             },
             "require": {
@@ -1369,7 +1369,7 @@
                 "source": "https://github.com/cartalyst/workshop/tree/master",
                 "issues": "https://github.com/cartalyst/workshop/issues"
             },
-            "time": "2014-06-30 14:50:47"
+            "time": "2014-06-30 17:59:44"
         },
         {
             "name": "classpreloader/classpreloader",
