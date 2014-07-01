@@ -1304,12 +1304,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/workshop.git",
-                "reference": "1c64d9644a57f48d0ee48ccc54527c72fffd99be"
+                "reference": "0e4fe83807e427e8bd7b88d32e80bcde74f978da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/workshop/zipball/1c64d9644a57f48d0ee48ccc54527c72fffd99be",
-                "reference": "1c64d9644a57f48d0ee48ccc54527c72fffd99be",
+                "url": "https://api.github.com/repos/cartalyst/workshop/zipball/0e4fe83807e427e8bd7b88d32e80bcde74f978da",
+                "reference": "0e4fe83807e427e8bd7b88d32e80bcde74f978da",
                 "shasum": ""
             },
             "require": {
@@ -1369,7 +1369,7 @@
                 "source": "https://github.com/cartalyst/workshop/tree/master",
                 "issues": "https://github.com/cartalyst/workshop/issues"
             },
-            "time": "2014-06-30 18:54:15"
+            "time": "2014-07-01 03:35:36"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -2362,12 +2362,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "df0ff252bd4e83ae00385bf41f16446024b174d5"
+                "reference": "547a1f0e3860ff06c4f8c9691d7c722a37b0775c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/df0ff252bd4e83ae00385bf41f16446024b174d5",
-                "reference": "df0ff252bd4e83ae00385bf41f16446024b174d5",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/547a1f0e3860ff06c4f8c9691d7c722a37b0775c",
+                "reference": "547a1f0e3860ff06c4f8c9691d7c722a37b0775c",
                 "shasum": ""
             },
             "require": {
@@ -2471,7 +2471,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-30 00:22:32"
+            "time": "2014-07-01 01:59:47"
         },
         {
             "name": "leafo/scssphp",
@@ -4083,12 +4083,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-operations.git",
-                "reference": "e648bacf4e448c3628f5bebe6678ad8d9340f343"
+                "reference": "693955f718b8423e0e220b0350a08e548e34eeb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-operations/zipball/e648bacf4e448c3628f5bebe6678ad8d9340f343",
-                "reference": "e648bacf4e448c3628f5bebe6678ad8d9340f343",
+                "url": "https://api.github.com/repos/cartalyst/platform-operations/zipball/693955f718b8423e0e220b0350a08e548e34eeb9",
+                "reference": "693955f718b8423e0e220b0350a08e548e34eeb9",
                 "shasum": ""
             },
             "require": {
@@ -4149,7 +4149,7 @@
                 "source": "https://github.com/cartalyst/platform-operations/tree/master",
                 "issues": "https://github.com/cartalyst/platform-operations/issues"
             },
-            "time": "2014-06-30 14:30:47"
+            "time": "2014-07-01 03:34:16"
         },
         {
             "name": "platform/pages",
