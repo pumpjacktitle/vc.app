@@ -1,0 +1,114 @@
+@extends('layouts/default')
+
+{{-- Page title --}}
+@section('pageTitle')
+	@parent
+	: {{{ trans("{{lower_vendor}}/{{lower_name}}::{{plural_lower_model}}/general.{$mode}") }}} {{{ ${{camel_model}}->exists ? '- ' . ${{camel_model}}->name : null }}}
+@stop
+
+{{-- Queue assets --}}
+{{ Asset::queue('bootstrap.tabs', 'bootstrap/js/tab.js', 'jquery') }}
+{{ Asset::queue('{{lower_name}}', '{{lower_vendor}}/{{lower_name}}::js/script.js', 'jquery') }}
+
+{{-- Inline scripts --}}
+@section('scripts')
+@parent
+@stop
+
+{{-- Inline styles --}}
+@section('styles')
+@parent
+@stop
+
+{{-- Breadcrumbs --}}
+@section('breadcrumbs')
+@parent
+<li><a href="{{ URL::toAdmin('{{lower_name}}/{{plural_lower_model}}') }}">{{{ trans('{{lower_vendor}}/{{lower_name}}::{{plural_lower_model}}/general.title') }}}</a></li>
+<li class="active">{{lower_vendor}}/{{lower_name}}::{{plural_lower_model}}/general.{$mode}") }}} <small>{{{ ${{camel_model}}->name }}}<//small></li>
+@stop
+
+{{-- Page Content --}}
+@section('content')
+
+{{-- Page Header --}}
+<div class="m-b-md">
+	<div class="row">
+		<div class="col-sm-12">
+			<h3 class="m-b-none">{{lower_vendor}}/{{lower_name}}::{{plural_lower_model}}/general.{$mode}") }}} <small>{{{ ${{camel_model}}->name }}}</small></h3>
+		</div>
+	</div>
+</div>
+
+{{-- Content form --}}
+<form id="{{lower_name}}-form" action="{{ Request::fullUrl() }}" method="post" accept-char="UTF-8" autocomplete="off" class="form-horizontal validate">
+
+	{{-- CSRF Token --}}
+	<input type="hidden" name="_token" value="{{ csrf_token() }}">
+
+	<section class="panel panel-default">
+		
+		{{-- Tab Panel Header --}}
+		<header class="panel-heading text-right bg-light">
+			
+			{{-- Tabs --}}
+			<ul class="nav nav-tabs pull-left">
+				<li class="active"><a href="#general" data-toggle="tab">{{{ trans('{{lower_vendor}}/{{lower_name}}::general.tabs.general') }}}</a></li>
+				<li><a href="#attributes" data-toggle="tab">{{{ trans('{{lower_vendor}}/{{lower_name}}::general.tabs.attributes') }}}</a></li>
+			</ul>
+
+			<span class="hidden-sm">&nbsp;</span>
+		</header>
+
+		{{-- Tabs content --}}
+		<div class="panel-body">
+
+			{{-- General tab --}}
+			<div class="tab-pane fade active in" id="general">
+
+				<div class="row">
+
+					{{columns}}
+
+				</div>
+
+			</div>
+
+			{{-- Attributes tab --}}
+			<div class="tab-pane fade clearfix" id="attributes">
+
+				@widget('platform/attributes::entity.form', [${{camel_model}}])
+
+			</div>
+		</div>
+
+		{{-- form actions --}}
+		<div class="panel-footer">
+			
+			{{-- Form actions --}}
+			<div class="row m-b-n-sm">
+				
+				<div class="col-lg-12 text-right">
+
+					{{-- Form actions --}}
+					<div class="form-group">
+
+						<button class="btn btn-success" type="submit">{{{ trans('button.save') }}}</button>
+
+						<a class="btn btn-default" href="{{{ URL::toAdmin('{{lower_name}}/{{plural_lower_model}}') }}}">{{{ trans('button.cancel') }}}</a>
+
+						@if (${{camel_model}}->exists)
+						<a class="btn btn-danger" data-toggle="modal" data-target="modal-confirm" href="{{ URL::toAdmin("{{lower_name}}/{{plural_lower_model}}/{${{camel_model}}->id}/delete") }}">{{{ trans('button.delete') }}}</a>
+						@endif
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+</form>
+
+@stop
