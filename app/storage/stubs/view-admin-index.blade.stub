@@ -95,18 +95,11 @@ $(function()
 @section('content')
 
 {{-- Page header --}}
-<div class="page-header">
-
-	<h1>{{{ trans('{{lower_vendor}}/{{lower_name}}::{{plural_lower_model}}/general.title') }}}</h1>
-
-</div>
-
-{{-- Page header --}}
 <div class="m-b-md">
 	
 	<div class="row">
 
-		<div class="col-sm-6">
+		<div class="col-sm-12">
 	
 			<h3 class="m-b-none">
 				{{{ trans('{{lower_vendor}}/{{lower_name}}::{{plural_lower_model}}/general.title') }}}

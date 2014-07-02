@@ -1,7 +1,7 @@
 {{-- {{field_name}} --}}
 <div class="form-group">
 
-	<label for="{{field_name}}" class="control-label col-sm-2">{{{ trans('{{lower_vendor}}/{{lower_name}}::{{plural_lower_model}}/form.{{field_name}}') }}} <i class="fa fa-info-circle" data-toggle="popover" data-content="{{{ trans('{{lower_vendor}}/{{lower_name}}::{{plural_lower_model}}/form.{{field_name}}_help') }}}"></i></label>
+	<label for="{{field_name}}" class="control-label col-sm-2">{{{ trans('{{lower_vendor}}/{{lower_name}}::{{plural_lower_model}}/form.{{field_name}}') }}} <i class="fa fa-info-circle" data-toggle="popover" data-container="body" data-content="{{{ trans('{{lower_vendor}}/{{lower_name}}::{{plural_lower_model}}/form.{{field_name}}_help') }}}"></i></label>
 	
 	<div class="col-sm-10">
 		
