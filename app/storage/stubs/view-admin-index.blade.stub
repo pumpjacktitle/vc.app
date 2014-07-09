@@ -188,7 +188,7 @@ $(function()
 				<div class="row">
 				
 					{{-- Data Grid : Pagination --}}
-					<div class="data-grid_pagination" data-grid="main"></div>
+					<div class="data-grid_pagination" data-grid="{{grid_name}}"></div>
 				
 				</div>
 			
