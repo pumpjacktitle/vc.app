@@ -4,8 +4,69 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b56a0915b885be1ef5ab8b225e56563e",
+    "hash": "0fdc792bc81c5ad17bcb169369aa2ee4",
     "packages": [
+        {
+            "name": "barryvdh/laravel-ide-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/laravel-ide-helper.git",
+                "reference": "a9dae91e4d82a4f7312f6b732baf8a5aa82fc73e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/a9dae91e4d82a4f7312f6b732baf8a5aa82fc73e",
+                "reference": "a9dae91e4d82a4f7312f6b732baf8a5aa82fc73e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "4.x",
+                "illuminate/filesystem": "4.x",
+                "illuminate/support": "4.x",
+                "php": ">=5.3.0",
+                "phpdocumentor/reflection-docblock": "2.0.x",
+                "symfony/class-loader": "~2.3"
+            },
+            "require-dev": {
+                "doctrine/dbal": "~2.3"
+            },
+            "suggest": {
+                "doctrine/dbal": "Load information from the database about models for phpdocs (~2.3)"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Barryvdh\\LaravelIdeHelper": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+            "keywords": [
+                "autocomplete",
+                "codeintel",
+                "laravel",
+                "netbeans",
+                "phpdoc",
+                "phpstorm",
+                "sublime"
+            ],
+            "time": "2014-06-29 14:07:17"
+        },
         {
             "name": "cartalyst/api",
             "version": "dev-master",
@@ -2026,6 +2087,142 @@
             "time": "2014-04-26 15:49:46"
         },
         {
+            "name": "kyaris-arsenal/admin-kyaris",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:kyaris-arsenal/admin-kyaris.git",
+                "reference": "2cda70de701f581142ea3e752359a7925a3e5298"
+            },
+            "require": {
+                "cartalyst/composer-installers": "1.1.*",
+                "php": ">=5.4.0"
+            },
+            "type": "platform-theme",
+            "extra": {
+                "component": "theme"
+            },
+            "license": [
+                "BSD-3"
+            ],
+            "authors": [
+                {
+                    "name": "Kyaris LLC",
+                    "email": "help@kyaris.com"
+                },
+                {
+                    "name": "Daniel Berry",
+                    "email": "daniel@kyaris.com",
+                    "role": "Creator & Developer"
+                }
+            ],
+            "description": "Kyaris Admin theme.",
+            "keywords": [
+                "kyaris",
+                "laravel",
+                "platform",
+                "theme"
+            ],
+            "time": "2014-07-02 06:55:09"
+        },
+        {
+            "name": "kyaris-arsenal/frontend-kyaris",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:kyaris-arsenal/frontend-kyaris.git",
+                "reference": "d77539039a7eb8f125cce47fe9744a886085d852"
+            },
+            "require": {
+                "cartalyst/composer-installers": "1.1.*",
+                "php": ">=5.4.0"
+            },
+            "type": "platform-theme",
+            "extra": {
+                "component": "theme"
+            },
+            "license": [
+                "BSD-3"
+            ],
+            "authors": [
+                {
+                    "name": "Kyaris LLC",
+                    "email": "help@kyaris.com"
+                },
+                {
+                    "name": "Daniel Berry",
+                    "email": "daniel@kyaris.com",
+                    "role": "Creator & Developer"
+                }
+            ],
+            "description": "Kyaris Frontend theme.",
+            "keywords": [
+                "kyaris",
+                "laravel",
+                "platform",
+                "theme"
+            ],
+            "time": "2014-06-28 18:37:08"
+        },
+        {
+            "name": "kyaris-arsenal/platform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:kyaris-arsenal/platform.git",
+                "reference": "8ad35e66353ace74b400caa11d7c248d9dc3afb7"
+            },
+            "require": {
+                "illuminate/support": "4.2.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "KyarisArsenal\\Platform": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Daniel Berry",
+                    "email": "danielberrytn@gmail.com"
+                }
+            ],
+            "time": "2014-06-11 22:04:30"
+        },
+        {
+            "name": "kyaris-arsenal/users",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:kyaris-arsenal/users-extension.git",
+                "reference": "d5c17172c39138c88c82b9ee26f9865dc0e5db07"
+            },
+            "require": {
+                "cartalyst/composer-installers": "1.1.*",
+                "illuminate/support": "4.2.x",
+                "php": ">=5.4.0"
+            },
+            "type": "platform-extension",
+            "autoload": {
+                "classmap": [
+                    "database/migrations",
+                    "database/seeds"
+                ],
+                "psr-4": {
+                    "KyarisArsenal\\Users\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Daniel Berry",
+                    "email": "danielberrytn@gmail.com"
+                }
+            ],
+            "description": "Extends the Cartalyst Platform User extension.",
+            "time": "2014-06-18 04:20:35"
+        },
+        {
             "name": "laravel/framework",
             "version": "4.2.x-dev",
             "source": {
@@ -2834,6 +3031,55 @@
                 "utf8"
             ],
             "time": "2014-06-17 08:23:06"
+        },
+        {
+            "name": "phpdocumentor/reflection-docblock",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                "reference": "07b195e1eee19ee99cd9432983e1fb39adacdde1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/07b195e1eee19ee99cd9432983e1fb39adacdde1",
+                "reference": "07b195e1eee19ee99cd9432983e1fb39adacdde1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*@stable"
+            },
+            "suggest": {
+                "dflydev/markdown": "1.0.*",
+                "erusev/parsedown": "~0.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "phpDocumentor": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "mike.vanriel@naenius.com"
+                }
+            ],
+            "time": "2014-04-26 10:10:44"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -4247,6 +4493,58 @@
             "time": "2014-07-09 09:05:48"
         },
         {
+            "name": "symfony/class-loader",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/ClassLoader",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/ClassLoader.git",
+                "reference": "79f809062fa42bca3ce244791e40d86d68ba8e16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/ClassLoader/zipball/79f809062fa42bca3ce244791e40d86d68ba8e16",
+                "reference": "79f809062fa42bca3ce244791e40d86d68ba8e16",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/finder": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\ClassLoader\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony ClassLoader Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-07-08 12:21:41"
+        },
+        {
             "name": "symfony/console",
             "version": "2.5.x-dev",
             "target-dir": "Symfony/Component/Console",
@@ -5002,6 +5300,8 @@
     "stability-flags": {
         "platform/admin-default": 20,
         "platform/frontend-default": 20,
+        "kyaris-arsenal/admin-kyaris": 20,
+        "kyaris-arsenal/frontend-kyaris": 20,
         "platform/foundation": 20,
         "platform/installer": 20,
         "platform/attributes": 20,
@@ -5011,7 +5311,9 @@
         "platform/operations": 20,
         "platform/pages": 20,
         "platform/settings": 20,
-        "platform/users": 20
+        "platform/users": 20,
+        "kyaris-arsenal/platform": 20,
+        "kyaris-arsenal/users": 20
     },
     "platform": [
 
