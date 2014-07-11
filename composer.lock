@@ -813,12 +813,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/nested-sets.git",
-                "reference": "8b6d7d3679945607a0da2baa42920b37c71f776f"
+                "reference": "7f5d28f5a9094f72167b88a62d2bf193decd5bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/nested-sets/zipball/8b6d7d3679945607a0da2baa42920b37c71f776f",
-                "reference": "8b6d7d3679945607a0da2baa42920b37c71f776f",
+                "url": "https://api.github.com/repos/cartalyst/nested-sets/zipball/7f5d28f5a9094f72167b88a62d2bf193decd5bd6",
+                "reference": "7f5d28f5a9094f72167b88a62d2bf193decd5bd6",
                 "shasum": ""
             },
             "require": {
@@ -887,7 +887,7 @@
                 "source": "https://github.com/cartalyst/nested-sets/tree/master",
                 "issues": "https://github.com/cartalyst/nested-sets/issues"
             },
-            "time": "2014-07-05 23:07:09"
+            "time": "2014-07-11 00:50:54"
         },
         {
             "name": "cartalyst/sentinel",
@@ -895,12 +895,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/sentinel.git",
-                "reference": "e8626781303ce85d63689c43998b236146fd2c4a"
+                "reference": "17e8767622ae89a9dd477fc3ede47f01e32cbd90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/sentinel/zipball/e8626781303ce85d63689c43998b236146fd2c4a",
-                "reference": "e8626781303ce85d63689c43998b236146fd2c4a",
+                "url": "https://api.github.com/repos/cartalyst/sentinel/zipball/17e8767622ae89a9dd477fc3ede47f01e32cbd90",
+                "reference": "17e8767622ae89a9dd477fc3ede47f01e32cbd90",
                 "shasum": ""
             },
             "require": {
@@ -985,7 +985,7 @@
                 "source": "https://github.com/cartalyst/sentinel/tree/master",
                 "issues": "https://github.com/cartalyst/sentinel/issues"
             },
-            "time": "2014-07-02 21:08:23"
+            "time": "2014-07-10 03:53:40"
         },
         {
             "name": "cartalyst/sentinel-social",
@@ -1075,12 +1075,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/themes.git",
-                "reference": "d7c831a760df532f77a9d9bea592401fa68783d5"
+                "reference": "f914f90da74d71cca79be3717ae32af696934be6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/themes/zipball/d7c831a760df532f77a9d9bea592401fa68783d5",
-                "reference": "d7c831a760df532f77a9d9bea592401fa68783d5",
+                "url": "https://api.github.com/repos/cartalyst/themes/zipball/f914f90da74d71cca79be3717ae32af696934be6",
+                "reference": "f914f90da74d71cca79be3717ae32af696934be6",
                 "shasum": ""
             },
             "require": {
@@ -1162,7 +1162,7 @@
                 "source": "https://github.com/cartalyst/themes/tree/2.2",
                 "issues": "https://github.com/cartalyst/themes/issues"
             },
-            "time": "2014-07-08 14:41:05"
+            "time": "2014-07-11 00:51:30"
         },
         {
             "name": "cartalyst/widgets",
@@ -3319,12 +3319,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-attributes.git",
-                "reference": "ba0f8a2a05c137fa2b435e6be949cc2c5ab41d76"
+                "reference": "50b070ea3ee86b562108aa7d703f19bd45207f2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-attributes/zipball/ba0f8a2a05c137fa2b435e6be949cc2c5ab41d76",
-                "reference": "ba0f8a2a05c137fa2b435e6be949cc2c5ab41d76",
+                "url": "https://api.github.com/repos/cartalyst/platform-attributes/zipball/50b070ea3ee86b562108aa7d703f19bd45207f2c",
+                "reference": "50b070ea3ee86b562108aa7d703f19bd45207f2c",
                 "shasum": ""
             },
             "require": {
@@ -3384,7 +3384,7 @@
                 "source": "https://github.com/cartalyst/platform-attributes/tree/master",
                 "issues": "https://github.com/cartalyst/platform-attributes/issues"
             },
-            "time": "2014-07-05 23:30:02"
+            "time": "2014-07-10 04:50:19"
         },
         {
             "name": "platform/content",
@@ -4985,12 +4985,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "c7d582cf30374775581f2574aaac5aeae5316411"
+                "reference": "edf9fe2c69ae3e17d95d930172f9cecf07b80589"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/c7d582cf30374775581f2574aaac5aeae5316411",
-                "reference": "c7d582cf30374775581f2574aaac5aeae5316411",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/edf9fe2c69ae3e17d95d930172f9cecf07b80589",
+                "reference": "edf9fe2c69ae3e17d95d930172f9cecf07b80589",
                 "shasum": ""
             },
             "require": {
@@ -5049,7 +5049,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-08 18:56:57"
+            "time": "2014-07-09 09:05:48"
         },
         {
             "name": "symfony/process",
