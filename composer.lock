@@ -1166,20 +1166,20 @@
         },
         {
             "name": "cartalyst/widgets",
-            "version": "dev-master",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/widgets.git",
-                "reference": "8264ba69b95b01859914e2b79d93cdffdc983f2d"
+                "reference": "9a5ad1b882c0a07e2e6db6f7a9ad19976ec94ac1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/widgets/zipball/8264ba69b95b01859914e2b79d93cdffdc983f2d",
-                "reference": "8264ba69b95b01859914e2b79d93cdffdc983f2d",
+                "url": "https://api.github.com/repos/cartalyst/widgets/zipball/9a5ad1b882c0a07e2e6db6f7a9ad19976ec94ac1",
+                "reference": "9a5ad1b882c0a07e2e6db6f7a9ad19976ec94ac1",
                 "shasum": ""
             },
             "require": {
-                "cartalyst/extensions": "1.0.*",
+                "cartalyst/extensions": "~1.0",
                 "illuminate/container": "~4",
                 "php": ">=5.3.0"
             },
@@ -1190,7 +1190,7 @@
             "extra": {
                 "component": "package",
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -1230,10 +1230,10 @@
                 "platform"
             ],
             "support": {
-                "source": "https://github.com/cartalyst/widgets/tree/master",
+                "source": "https://github.com/cartalyst/widgets/tree/1.0",
                 "issues": "https://github.com/cartalyst/widgets/issues"
             },
-            "time": "2014-07-05 23:38:44"
+            "time": "2014-07-13 15:04:23"
         },
         {
             "name": "cartalyst/workshop",
@@ -2228,12 +2228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "8481d5677294021af6880374e394d48c8c6c2589"
+                "reference": "4742c9e26228dba5d7e7893fd452a0d54d49382b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/8481d5677294021af6880374e394d48c8c6c2589",
-                "reference": "8481d5677294021af6880374e394d48c8c6c2589",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4742c9e26228dba5d7e7893fd452a0d54d49382b",
+                "reference": "4742c9e26228dba5d7e7893fd452a0d54d49382b",
                 "shasum": ""
             },
             "require": {
@@ -2337,7 +2337,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-07-13 03:17:48"
+            "time": "2014-07-14 00:29:33"
         },
         {
             "name": "leafo/scssphp",
@@ -3468,12 +3468,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-foundation.git",
-                "reference": "02bf4a46da185976269b1f4d5d3e15dac77567a9"
+                "reference": "f7580224903c580798a3f870cf0b3769e95c7b30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-foundation/zipball/02bf4a46da185976269b1f4d5d3e15dac77567a9",
-                "reference": "02bf4a46da185976269b1f4d5d3e15dac77567a9",
+                "url": "https://api.github.com/repos/cartalyst/platform-foundation/zipball/f7580224903c580798a3f870cf0b3769e95c7b30",
+                "reference": "f7580224903c580798a3f870cf0b3769e95c7b30",
                 "shasum": ""
             },
             "require": {
@@ -3482,7 +3482,7 @@
                 "cartalyst/data-grid": "dev-master",
                 "cartalyst/extensions": "1.0.4",
                 "cartalyst/themes": "2.2.*",
-                "cartalyst/widgets": "1.0.*",
+                "cartalyst/widgets": "1.0.2",
                 "illuminate/config": "~4",
                 "illuminate/container": "~4",
                 "illuminate/http": "~4",
@@ -3547,7 +3547,7 @@
                 "source": "https://github.com/cartalyst/platform-foundation/tree/master",
                 "issues": "https://github.com/cartalyst/platform-foundation/issues"
             },
-            "time": "2014-07-13 14:38:25"
+            "time": "2014-07-13 15:16:40"
         },
         {
             "name": "platform/frontend-default",
@@ -4146,12 +4146,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "f967ecd66b37f5fe879b6bf35fbf677465294402"
+                "reference": "79539c3bcf16aaebf4fa5f6728fceb2f48474b27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/f967ecd66b37f5fe879b6bf35fbf677465294402",
-                "reference": "f967ecd66b37f5fe879b6bf35fbf677465294402",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/79539c3bcf16aaebf4fa5f6728fceb2f48474b27",
+                "reference": "79539c3bcf16aaebf4fa5f6728fceb2f48474b27",
                 "shasum": ""
             },
             "require": {
@@ -4188,7 +4188,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2014-07-07 09:48:01"
+            "time": "2014-07-14 14:26:06"
         },
         {
             "name": "psr/log",
