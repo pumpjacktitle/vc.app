@@ -168,7 +168,7 @@ $(function()
 
 			<div class="table-responsive">
 				
-				<table data-source="{{ URL::toAdmin('{{lower_name}}/{{plural_lower_model}}/grid') }}" data-grid="{{grid_name}}" class="data-grid table table-striped b-t b-light table-bordered table-hover">
+				<table data-source="{{ URL::toAdmin('{{lower_name}}/{{plural_lower_model}}/grid') }}" data-grid="{{grid_name}}" class="data-grid table table-striped b-t b-light table-hover">
 				
 					<thead>
 						<tr>
